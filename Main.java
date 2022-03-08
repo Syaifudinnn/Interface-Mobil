@@ -9,6 +9,12 @@ public class Main {
         String mobil;
         int aksi;
         
+        System.out.println("Daftar Mobil : ");
+        System.out.println("- Avanza");
+        System.out.println("- Esemka");
+        System.out.println("- Tesla");
+        System.out.println("- Lamborghini");
+        System.out.println("");
         System.out.print("Masukkan mobil yang akan digunakan : ");
         Scanner input = new Scanner (System.in);
         mobil = input.nextLine();
